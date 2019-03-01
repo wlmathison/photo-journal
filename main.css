@@ -1,0 +1,34 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    background-color: black;
+}
+nav ul {
+    list-style: none;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer {
+    margin-top: 25px;
+    border-top: 1px dotted;
+}
+
+.submissionForm {
+    max-width: 600px;
+    border: 1px solid black;
+}
+
+li a {
+    color: white;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}
