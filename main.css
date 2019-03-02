@@ -5,9 +5,18 @@ ul {
 
 nav {
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 9999;
+
 }
 nav ul {
     list-style: none;
+    padding-left: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 footer ul {
@@ -31,4 +40,15 @@ li a {
 
 .card-img-top:hover {
     transform: scale(1.2);
+}
+
+.carousel {
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+main {
+    margin-top: 30px;
 }
