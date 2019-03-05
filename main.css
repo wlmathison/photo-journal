@@ -30,6 +30,7 @@ footer {
 }
 
 .submissionForm {
+    margin-top: 75px;
     max-width: 600px;
     border: 1px solid black;
 }
@@ -51,4 +52,13 @@ li a {
 
 main {
     margin-top: 30px;
+    margin-left: 15px;
+}
+
+.indexText {
+text-align: center
+}
+
+#messageBox {
+    margin-left: 36px;
 }
